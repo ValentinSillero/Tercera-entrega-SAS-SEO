@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: auto;
+    background-color: #454545
+    
+}
+header section div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #454545
+}
+header section div h2{
+    text-decoration: none;
+    color: white;
+    align-content: center;
+}
+header section div form input{
+    background-color: #454545;
+    
+}
+nav{
+    display: flex;
+
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+header section div img{
+    width: 75px;
+    margin-left: auto;
+    top: 50px;
+    align-items: center;
+}
+.container-text{
+    text-align: center;
+}
+.mercaderia{
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3,1fr);
+grid-template-areas: 
+"img1 img2 img3" 
+"img1 img2 img3"
+"img1 img2 img3"
+;
+}
+.mercaderia img{
+    object-fit: cover ;
+    width: 100%;
+    height: 100%;
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.container-publi{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ejercicio{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
+
+
+}
+.ejercicio img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.mercaderia2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+    grid-template-areas:
+    "img5 img6 img7"
+    "img8 img9 img10"
+    
+    ;
+
+}
+.mercaderia2 img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+.img7{
+    grid-area: img7;
+}
+.img8{
+    grid-area: img8;
+}
+.img9{
+    grid-area: img9;
+}
+.img10{
+    grid-area: img10;
+}
+.text-product{
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width:768px){
+    header section{
+        background-color: #454545;
+    }
+}
+    header section div{
+        background-color:#454545;
+    }
+
+@media (max-width:768px){
+    .productoss img{
+    width: 160px;
+    height: 160px;
+    }
+    
+}
+main article div h4{
+    font-size: 12px;
+    margin-left: 10px;
+
+
+}
+
+@media (max-width:425px){
+    .publi{
+        font-size: 8px;
+    }
+}
+.productoss img{
+    width: 140px;
+    height: 140px;
+}
+.ejercicio img{
+    width: 420px;
+    height: 300px;
+}
+@media (max-width:375px){
+    .productoss img{
+        width: 120px;
+        height: 120px;
+    }
+}
+.ejercicio img{
+    width: 370px;
+    height: 250px;
+}
+
+@media (max-width:320px){
+    .navbar{
+        gap: 17px;
+    }
+}
+.ejercicio{
+    grid-template-columns: auto;
+}
