@@ -1,0 +1,48 @@
+header section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: auto;
+    background-color: #454545;
+    
+}
+header section div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #454545;
+}
+header section div h2{
+    text-decoration: none;
+    color: white;
+    align-content: center;
+}
+header section div form input{
+    background-color: #454545;
+    
+}
+nav{
+    display: flex;
+
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-abajo{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    position: absolute;
+    bottom: 0;
+}
+header section div img{
+    width: 75px;
+    margin-left: auto;
+    top: 50px;
+    align-items: center;
+}

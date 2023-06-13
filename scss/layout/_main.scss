@@ -1,0 +1,133 @@
+.container-publi{
+    display: flex;
+    justify-content: space-between;
+}
+.mercaderia{
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(1,1fr);
+grid-template-areas: 
+"img1 img2 img3" 
+
+;
+}
+.mercaderia img{
+    object-fit: cover ;
+    width: 70%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.mercaderia2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+    grid-template-areas:
+    "img5 img6 img7"
+    "img8 img9 img10"
+    
+    ;
+
+}
+.mercaderia2 img{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+.img7{
+    grid-area: img7;
+}
+.img8{
+    grid-area: img8;
+}
+.img9{
+    grid-area: img9;
+}
+.img10{
+    grid-area: img10;
+}
+.text-product{
+    text-align: center;
+
+}
+.container-contacto{
+    text-align: center;
+}
+.texto-nosotros{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-contenedores input{
+    background-color: #454545;
+    color: #454545;
+    border: 10px solid  #454545;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.container-sesion{
+    text-align: center;
+}
+.container-cuenta input{
+    background-color: #454545;
+    color: #454545;
+    border: 10px solid  #454545;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.container-cuenta button{
+    background-color: #454545;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.container-mejorar h2{
+    margin-left: 20px;
+    margin-top: 250px;
+
+}
+.container-mejorar p{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: auto;
+}
+.container-text{
+    text-align: center;
+}

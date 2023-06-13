@@ -1,0 +1,41 @@
+.navbar-abajo li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-abajo{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    position: absolute;
+    bottom: 0;
+}
+.container-publi-footerp{
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-publi-footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container-publi-footer h3{
+    margin-top: 100px;
+}
+.container-publi-footer-productos{
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-abajo-productos{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    position: absolute;
+    margin-bottom: auto;
+}
+.navbar-abajo-productos li a{
+    text-decoration: none;
+    color: black;
+}

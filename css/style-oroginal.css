@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: auto;
+    background-color: #454545
+    
+}
+header section div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #454545
+}
+header section div h2{
+    text-decoration: none;
+    color: white;
+    align-content: center;
+}
+header section div form input{
+    background-color: #454545;
+    
+}
+nav{
+    display: flex;
+
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-abajo{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.container-publi-footerp{
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-abajo li a{
+    text-decoration: none;
+    color: black;
+}
+header section div img{
+    width: 75px;
+    margin-left: auto;
+    top: 50px;
+    align-items: center;
+}
+.container-text{
+    text-align: center;
+}
+.container-publi{
+    display: flex;
+    justify-content: space-between;
+}
+.container-publi-footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container-publi-footer h3{
+    margin-top: 100px;
+}
+.mercaderia{
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(1,1fr);
+grid-template-areas: 
+"img1 img2 img3" 
+
+;
+}
+.mercaderia img{
+    object-fit: cover ;
+    width: 70%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+
+
+.container-ejer{
+    display: grid;
+
+}
+
+.mercaderia2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+    grid-template-areas:
+    "img5 img6 img7"
+    "img8 img9 img10"
+    
+    ;
+
+}
+.mercaderia2 img{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+.img7{
+    grid-area: img7;
+}
+.img8{
+    grid-area: img8;
+}
+.img9{
+    grid-area: img9;
+}
+.img10{
+    grid-area: img10;
+}
+
+
+.text-product{
+    text-align: center;
+
+}
+
+.container-contacto{
+    text-align: center;
+}
+
+.texto-nosotros{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-contenedores input{
+    background-color: #454545;
+    color: #454545;
+    border: 10px solid  #454545;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.container-sesion{
+    text-align: center;
+}
+.container-cuenta input{
+    background-color: #454545;
+    color: #454545;
+    border: 10px solid  #454545;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.container-cuenta button{
+    background-color: #454545;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.container-mejorar h2{
+    margin-left: 20px;
+    margin-top: 250px;
+
+}
+.container-mejorar p{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: auto;
+}
+
+.container-publi-footer-productos{
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-abajo-productos{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    position: absolute;
+    margin-bottom: auto;
+}
+.navbar-abajo-productos li a{
+    text-decoration: none;
+    color: black;
+}
+@media(max-width:1440px){
+    .navbar-abajo{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        position: absolute;
+        bottom: 0;
+    }
+    .container-mejorar h2{
+        margin-top: 20px;
+    }
+    .container-mejorar p{
+        font-size: 20px;
+    }
+}
+
+
+
+@media(max-width:768px){
+    .header section{
+        background-color: #454545;
+    }
+    .productoss img{
+        width: 160px;
+        height: 160px;
+        }
+        main article div h4{
+            font-size: 12px;
+            margin-left: 10px;
+        } 
+        header section div{
+            background-color:#454545;
+        }
+        .container-mejorar p{
+            font-size: 25px;
+            margin-top: 40px;
+        }
+        .navbar-abajo-productos{
+            position: absolute;
+            bottom: 0%;
+        }
+        .container-mejorar h2{
+            margin-top: 100px;
+        }
+        .mercaderia{
+            width: 100%;
+        }
+}
+
+@media (max-width:425px){
+    .navbar2 img{
+        width: 10%;
+        height: auto;
+    }
+    .navbar2 input{
+        width: 140px;
+    }
+    .publi{
+        font-size: 10px;
+    }
+    .productoss img{
+        width: 140px;
+        height: 140px;
+    }
+    .container-publi{
+        font-size: 10px;
+    }
+    .container-mejorar h2{
+        margin-top: 50px;
+    }
+    .container-mejorar p{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .container-publi-footer{
+        font-size: 10px;
+    }
+    .container-publi-footer-productos{
+        font-size: 10px;
+    }
+    .mercaderia2{
+        margin-top: 60px;
+    }
+    .mercaderia2 h3{
+        font-size: 12px;
+    }
+    .mercaderia2 h4{
+        font-size: 12px;
+    }
+    .mercaderia2 img{
+        width: 70%;
+        
+    }
+    .navbar-abajo{
+        position: absolute;
+        bottom: 0;
+    }
+    .texto-nosotros{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:375px){
+    .productoss img{
+        width: 120px;
+        height: 120px;
+    }
+    .container-mejorar p{
+        font-size: 15px;
+    }
+    .container-mejorar h2{
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .container-publi{
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mercaderia2 img{
+        width: 80%;
+    }
+    .texto-nosotros{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:320px){
+    .navbar{
+        gap: 17px;
+    }
+    .container-mejorar p{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .container-mejorar h2{
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .container-publi{
+        font-size: 9px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .container-publi-footer{
+        font-size: 10px;
+        margin-top: 40px;
+    }
+    .container-publi-footer{
+        font-size: 9px;
+    }
+    .container-publi-footer-productos{
+        font-size: 9px;
+    }
+    .mercaderia2 img{
+        width: 90%;
+    }
+    .texto-nosotros{
+        font-size: 16px;
+    }
+}
+
+

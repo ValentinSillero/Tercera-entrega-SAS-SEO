@@ -1,0 +1,30 @@
+@media(max-width:768px){
+    .header section{
+        background-color: #454545;
+    }
+    .productoss img{
+        width: 160px;
+        height: 160px;
+        }
+        main article div h4{
+            font-size: 12px;
+            margin-left: 10px;
+        } 
+        header section div{
+            background-color:#454545;
+        }
+        .container-mejorar p{
+            font-size: 25px;
+            margin-top: 40px;
+        }
+        .navbar-abajo-productos{
+            position: absolute;
+            bottom: 0%;
+        }
+        .container-mejorar h2{
+            margin-top: 100px;
+        }
+        .mercaderia{
+            width: 100%;
+        }
+}

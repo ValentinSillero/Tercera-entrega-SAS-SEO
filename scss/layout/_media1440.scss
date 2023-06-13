@@ -1,0 +1,15 @@
+@media(max-width:1440px){
+    .navbar-abajo{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        position: absolute;
+        bottom: 0;
+    }
+    .container-mejorar h2{
+        margin-top: 20px;
+    }
+    .container-mejorar p{
+        font-size: 20px;
+    }
+}
