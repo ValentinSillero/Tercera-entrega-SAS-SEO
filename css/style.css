@@ -3,6 +3,26 @@
   padding: 0;
   box-sizing: border-box; }
 
+.container-contenedores input {
+  background-color: #454545;
+  color: #454545;
+  border: 10px solid  #454545;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px; }
+
+.container-cuenta input {
+  background-color: #454545;
+  color: #454545;
+  border: 10px solid  #454545;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px; }
+
 header section {
   display: flex;
   justify-content: space-between;
@@ -111,7 +131,7 @@ header section div img {
 .text-product {
   text-align: center; }
 
-.container-contacto {
+.container-contacto, .container-sesion, .container-text {
   text-align: center; }
 
 .texto-nosotros {
@@ -124,20 +144,17 @@ header section div img {
 .container-contenedores input {
   background-color: #454545;
   color: #454545;
-  border: 10px solid  #454545;
+  border: 10px solid #454545;
   font-size: 20px;
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px; }
 
-.container-sesion {
-  text-align: center; }
-
 .container-cuenta input {
   background-color: #454545;
   color: #454545;
-  border: 10px solid  #454545;
+  border: 10px solid #454545;
   font-size: 20px;
   margin-left: 20px;
   margin-top: 20px;
@@ -163,9 +180,6 @@ header section div img {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: auto; }
-
-.container-text {
-  text-align: center; }
 
 .navbar-abajo li a {
   text-decoration: none;
@@ -238,7 +252,30 @@ header section div img {
   .container-mejorar h2 {
     margin-top: 100px; }
   .mercaderia {
-    width: 100%; } }
+    width: 100%; }
+  .container-text {
+    font-size: 15px; }
+  .mercaderia2 img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px; }
+  .img5 {
+    grid-area: img5; }
+  .img6 {
+    grid-area: img6; }
+  .img7 {
+    grid-area: img7; }
+  .img8 {
+    grid-area: img8; }
+  .img9 {
+    grid-area: img9; }
+  .img10 {
+    grid-area: img10; }
+  .text-product {
+    margin-top: 10px; } }
 
 @media (max-width: 425px) {
   .navbar2 img {
@@ -254,12 +291,14 @@ header section div img {
   .container-publi {
     font-size: 10px; }
   .container-mejorar h2 {
-    margin-top: 50px; }
+    margin-top: 70px;
+    font-size: 15px; }
   .container-mejorar p {
     font-size: 20px;
-    margin-top: 40px; }
+    margin-top: 90px; }
   .container-publi-footer {
-    font-size: 10px; }
+    font-size: 10px;
+    margin-top: 10px; }
   .container-publi-footer-productos {
     font-size: 10px; }
   .mercaderia2 {
@@ -274,7 +313,24 @@ header section div img {
     position: absolute;
     bottom: 0; }
   .texto-nosotros {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .container-text {
+    font-size: 12px;
+    margin-top: 15px; }
+  .mercaderia img {
+    object-fit: cover;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px; }
+  .img1 {
+    grid-area: img1; }
+  .img2 {
+    grid-area: img2; }
+  .img3 {
+    grid-area: img3; } }
 
 @media (max-width: 375px) {
   .productoss img {
@@ -314,7 +370,8 @@ header section div img {
   .container-publi-footer {
     font-size: 9px; }
   .container-publi-footer-productos {
-    font-size: 9px; }
+    font-size: 9px;
+    margin-top: -20px; }
   .mercaderia2 img {
     width: 90%; }
   .texto-nosotros {

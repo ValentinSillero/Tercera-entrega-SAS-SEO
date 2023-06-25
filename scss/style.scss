@@ -1,3 +1,6 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
 @import "./base/reset";
 @import "./base/typo";
 
@@ -12,4 +15,4 @@
 @import "./layout/media375px";
 @import "./layout/media320px";
 
-@import "./utilities/variables";
+

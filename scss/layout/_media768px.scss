@@ -1,6 +1,6 @@
 @media(max-width:768px){
     .header section{
-        background-color: #454545;
+        background-color: $color-principal;
     }
     .productoss img{
         width: 160px;
@@ -11,7 +11,7 @@
             margin-left: 10px;
         } 
         header section div{
-            background-color:#454545;
+            background-color: $color-principal;
         }
         .container-mejorar p{
             font-size: 25px;
@@ -27,4 +27,37 @@
         .mercaderia{
             width: 100%;
         }
+    .container-text{
+        font-size: 15px;
+    }
+    .mercaderia2 img{
+    
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .img5{
+        grid-area: img5;
+    }
+    .img6{
+        grid-area: img6;
+    }
+    .img7{
+        grid-area: img7;
+    }
+    .img8{
+        grid-area: img8;
+    }
+    .img9{
+        grid-area: img9;
+    }
+    .img10{
+        grid-area: img10;
+    }
+    .text-product{
+        margin-top: 10px;
+    }
 }

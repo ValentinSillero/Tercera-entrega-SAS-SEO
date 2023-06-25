@@ -85,9 +85,9 @@ grid-template-areas:
 }
 
 .container-contenedores input{
-    background-color: #454545;
-    color: #454545;
-    border: 10px solid  #454545;
+    background-color: $color-principal;
+    color: $color-principal;
+    border: 10px solid  $color-principal;
     font-size: 20px;
     margin-left: 20px;
     margin-top: 20px;
@@ -95,12 +95,13 @@ grid-template-areas:
     margin-right: 20px;
 }
 .container-sesion{
-    text-align: center;
+    @extend .container-contacto;
+    
 }
 .container-cuenta input{
-    background-color: #454545;
-    color: #454545;
-    border: 10px solid  #454545;
+    background-color: $color-principal;
+    color: $color-principal;
+    border: 10px solid $color-principal;
     font-size: 20px;
     margin-left: 20px;
     margin-top: 20px;
@@ -108,7 +109,7 @@ grid-template-areas:
     margin-right: 20px;
 }
 .container-cuenta button{
-    background-color: #454545;
+    background-color: $color-principal;
     font-size: 20px;
     margin-left: 20px;
     margin-top: 20px;
@@ -129,5 +130,6 @@ grid-template-areas:
     margin-top: auto;
 }
 .container-text{
-    text-align: center;
+    @extend .container-contacto;
+    
 }
